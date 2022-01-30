@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="data.roy.women">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.bluetooth" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_PRIVILEGED"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/women"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/women_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Women"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".latlan"></activity>
+        <activity android:name=".About" />
+        <activity android:name=".VehicleActivity" />
+        <activity android:name=".ShareActivity" />
+        <activity android:name=".CallActivity" />
+        <activity android:name=".SendActivity" />
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Splash" />
+        <activity android:name=".bluetooth" />
+        <activity android:name=".LocationActivity" />
+        <activity android:name=".MyLocationUsingLocationAPI" />
+        <activity android:name=".manu" />
+        <activity android:name=".CategoriesActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Map.MapLoc" />
+        <activity android:name=".Registration.Login" />
+        <activity android:name=".Registration.SignUp" />
+        <activity android:name=".Home" />
+        <activity android:name=".Grouping.Creategp" />
+        <activity android:name=".Grouping.Joingp" />
+        <activity android:name=".MainScreen" />
+    </application>
+
+</manifest>

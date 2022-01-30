@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgforapp"
+    tools:context="data.roy.women.ParentFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+        <GridLayout
+            android:id="@+id/mygrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="8">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                card_view:cardElevation="6dp"
+                app:cardUseCompatPadding="true"
+                app:contentPaddingRight="12dp"
+                android:layout_margin="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/send"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/cam" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Camera"
+                        android:textColor="#121111"
+                        android:textSize="18sp"
+                        app:backgroundTint="#FFFFFF" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                card_view:cardElevation="6dp"
+                app:cardUseCompatPadding="true"
+                app:contentPaddingRight="12dp"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    android:padding="16dp"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:id="@+id/contact"
+                        android:src="@drawable/taxi"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Safe Taxi"
+                        android:textColor="#121111"
+                        android:textSize="18sp"
+                        app:backgroundTint="#FFFFFF" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                card_view:cardElevation="6dp"
+                app:cardUseCompatPadding="true"
+                app:contentPaddingRight="12dp"
+                android:layout_margin="12dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    android:padding="16dp"
+                    android:gravity="center"
+                    >
+                    <ImageView
+                        android:id="@+id/about"
+                        android:src="@drawable/guide"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Guide"
+                        android:textColor="#121111"
+                        android:textSize="18sp"
+                        app:backgroundTint="#FFFFFF" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

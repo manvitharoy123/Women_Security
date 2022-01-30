@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "1032940843052",
+    "firebase_url": "https://security-5a511-default-rtdb.firebaseio.com",
+    "project_id": "security-5a511",
+    "storage_bucket": "security-5a511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032940843052:android:23672628fb94d9cd91e189",
+        "android_client_info": {
+          "package_name": "com.example.women"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032940843052-bpb3if2nvspvt5snjn1dijdqnsm67m8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.women",
+            "certificate_hash": "75f7b06fd02e583e748519e515edc734fd23c546"
+          }
+        },
+        {
+          "client_id": "1032940843052-c5jqr11l9u6t52u8l8sb6tkke8qtogbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD04otki_kafzNjPgmD_BRo5uG9aY8oXkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032940843052-c5jqr11l9u6t52u8l8sb6tkke8qtogbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032940843052:android:5e442d2a2885eec091e189",
+        "android_client_info": {
+          "package_name": "com.example.womensecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032940843052-c5jqr11l9u6t52u8l8sb6tkke8qtogbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD04otki_kafzNjPgmD_BRo5uG9aY8oXkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032940843052-c5jqr11l9u6t52u8l8sb6tkke8qtogbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032940843052:android:7b41211f1f50843a91e189",
+        "android_client_info": {
+          "package_name": "data.roy.women"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032940843052-6il6pu0c5cnjle0tojl211b8lke5hck6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "data.roy.women",
+            "certificate_hash": "75f7b06fd02e583e748519e515edc734fd23c546"
+          }
+        },
+        {
+          "client_id": "1032940843052-c5jqr11l9u6t52u8l8sb6tkke8qtogbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD04otki_kafzNjPgmD_BRo5uG9aY8oXkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1032940843052-c5jqr11l9u6t52u8l8sb6tkke8qtogbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
